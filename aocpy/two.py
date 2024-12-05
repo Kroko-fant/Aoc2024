@@ -1,6 +1,6 @@
 from copy import copy
 
-with open("../data/two-one.txt", "r") as f:
+with open("../data/two.txt", "r") as f:
     lines = f.readlines()
 
 lines = [([int(x) for x in l.replace("\n", "").split(" ")]) for l in lines]

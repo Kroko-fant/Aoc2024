@@ -1,4 +1,4 @@
-with open("../data/one-one.txt", "r") as f:
+with open("../data/one.txt", "r") as f:
     data = f.readlines()
 
 one = []
